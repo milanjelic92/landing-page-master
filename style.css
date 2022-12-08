@@ -118,7 +118,7 @@ h2 {
 .tool-section {
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -134,4 +134,10 @@ h2 {
   font-size: 17px;
   color: hsl(201, 11%, 66%);
   padding: 20px;
+}
+.tool-paragraph.blacklist-paragraph {
+  padding: 20px;
+}
+.icon-blacklist-image {
+  margin-top: 20px;
 }
