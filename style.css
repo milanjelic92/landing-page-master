@@ -39,9 +39,11 @@ button {
   padding: 15px 40px;
   border-radius: 30px;
   border: none;
-  box-shadow: inset 1px -3px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 1px -3px 1px rgba(0, 0, 0, 0.2),
+    6px 6px 15px rgba(0, 0, 0, 0.2);
   color: white;
   font-weight: 600;
+  transition: opacity 0.2s ease;
 }
 button.ios-button {
   background-color: hsl(171, 66%, 44%);
@@ -63,6 +65,7 @@ button.mac-button {
   line-height: 1.8;
   padding: 40px;
   color: hsl(201, 11%, 66%);
+  margin-top: -35px;
 }
 h2 {
   font-size: 2em;
@@ -121,6 +124,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: -150px;
 }
 .tool-section h4 {
   margin-top: 30px;
@@ -133,11 +137,57 @@ h2 {
   line-height: 1.8;
   font-size: 17px;
   color: hsl(201, 11%, 66%);
-  padding: 20px;
+  padding: 17px;
 }
 .tool-paragraph.blacklist-paragraph {
   padding: 20px;
 }
 .icon-blacklist-image {
   margin-top: 20px;
+}
+
+.company-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* footer styling*/
+
+footer {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 25px;
+  background-color: hsl(0, 0%, 91%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  width: 60px;
+}
+
+.left-side {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-side {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
