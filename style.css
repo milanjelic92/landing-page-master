@@ -352,4 +352,7 @@ ion-icon:hover {
     text-align: center;
     margin-top: 100px;
   }
+  .tool-section {
+    grid-template-columns: 400px;
+  }
 }
